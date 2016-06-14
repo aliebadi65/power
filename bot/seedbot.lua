@@ -212,23 +212,26 @@ function create_config( )
   -- A simple config with basic plugins and ourselves as privileged user
   config = {
     enabled_plugins = {
-    "plugins",
-    "antiSpam",
-    "antiArabic",
-    "banHammer",
-    "broadcast",
-    "password",
-    "me",
-    "badword",
-    "pmLoad",
-    "inPm",
-    "whitelist",
-    "inSuper",
-    "inRealm",
+  "admin",
     "onservice",
-    "inGroups",
-    "updater",
-    "inAdmin"
+    "inrealm",
+    "ingroup",
+    "inpm",
+    "banhammer",
+    "stats",
+    "anti_spam",
+    "owners",
+    "arabic_lock",
+    "set",
+    "get",
+    "broadcast",
+    "invite",
+    "all",
+    "leave_ban",
+	"supergroup",
+	"whitelist",
+	"msg_checks"
+    "updater"
     },
     sudo_users = {136141698},--Sudo users
     moderation = {data = 'data/moderation.json'},
